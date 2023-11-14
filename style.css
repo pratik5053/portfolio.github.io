@@ -355,6 +355,8 @@ article .icon {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+  /* filter: drop-shadow(4px 4px 4px black); */
+  mix-blend-mode: darken;
 }
 
 .project-title {
@@ -367,12 +369,17 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.project-text {
+  text-align: justify;
+  padding-bottom: 0.5rem;
+}
+
 /* Contact */
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 75vh;
 }
 
 .contact-info-upper-container {
@@ -415,4 +422,3 @@ footer {
 footer p {
   text-align: center;
 }
-
